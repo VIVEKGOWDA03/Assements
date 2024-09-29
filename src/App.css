@@ -1,0 +1,38 @@
+/* src/App.css */
+.cat-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cat-card {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .cat-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .shimmer {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+  }
+  
+  @keyframes loading {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
