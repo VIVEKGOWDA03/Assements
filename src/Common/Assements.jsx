@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useGetCatsQuery } from "../store/AssesmentApi";
 import Simmer from "./Simmer";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const LIMIT = 5;
 
 const Assement = () => {
